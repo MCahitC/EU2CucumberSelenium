@@ -29,7 +29,7 @@ Feature:  Contacts page
       |lastname | Doe      |
     Then the user should be able to login
 
-
+  @wip
   Scenario Outline: Login as a given user
     Given the user is on the login page
     When the user logs in using the following credentials

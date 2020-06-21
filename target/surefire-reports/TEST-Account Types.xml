@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Account Types" time="11.211" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\mehme\IdeaProjects\EU2CucumberSelenium\target\test-classes;C:\Users\mehme\IdeaProjects\EU2CucumberSelenium\target\classes;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mehme\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mehme\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mehme\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mehme\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mehme\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mehme\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mehme\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mehme\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mehme\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mehme\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mehme\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\mehme\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\mehme\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\mehme\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\mehme\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\mehme\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\mehme\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\mehme\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\mehme\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\mehme\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\mehme\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\mehme\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\mehme\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\mehme\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\mehme\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\mehme\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\mehme\AppData\Local\Temp\surefire12787321698629958693\surefirebooter16063923966202306358.jar C:\Users\mehme\AppData\Local\Temp\surefire12787321698629958693 2020-06-14T22-34-01_024-jvmRun1 surefire15052191101257585405tmp surefire_015855597576317627451tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\mehme\IdeaProjects\EU2CucumberSelenium\target\test-classes;C:\Users\mehme\IdeaProjects\EU2CucumberSelenium\target\classes;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mehme\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mehme\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mehme\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mehme\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mehme\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mehme\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mehme\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mehme\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mehme\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mehme\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mehme\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mehme\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\mehme\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\mehme\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\mehme\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\mehme\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\mehme\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\mehme\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\mehme\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\mehme\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\mehme\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\mehme\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\mehme\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\mehme\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\mehme\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\mehme\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\mehme\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\mehme\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mehme"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\mehme\IdeaProjects\EU2CucumberSelenium"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\mehme\AppData\Local\Temp\surefire12787321698629958693\surefirebooter16063923966202306358.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="webdriver.edge.driver" value="C:\Users\mehme\.m2\repository\webdriver\edgedriver\win64\x64\83.0.478.45\msedgedriver.exe"/>
+    <property name="user.name" value="mehme"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="browser" value="edge"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\mehme\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mehme\AppData\Local\Temp\"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="C:\Users\mehme\IdeaProjects\EU2CucumberSelenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.2\bin;C:\Program Files\Git\cmd;C:\Users\mehme\Desktop\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\mehme\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-13.0.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="Driver user" classname="Account Types" time="9.688">
+    <error message="unknown error: cannot find MSEdge binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-F3JN55DI&apos;, ip: &apos;192.168.1.216&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: Driver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00007FF6832B1BD2+3414994]&#10;	Ordinal0 [0x00007FF6831875C2+2192834]&#10;	Ordinal0 [0x00007FF68302478F+739215]&#10;	Ordinal0 [0x00007FF682F835A2+79266]&#10;	Ordinal0 [0x00007FF682F81272+70258]&#10;	Ordinal0 [0x00007FF682FB07CB+264139]&#10;	Ordinal0 [0x00007FF682FAD68F+251535]&#10;	Ordinal0 [0x00007FF682F8A663+108131]&#10;	Ordinal0 [0x00007FF682F8B9CE+113102]&#10;	Ordinal0 [0x00007FF6831A2501+2303233]&#10;	GetHandleVerifier [0x00007FF68342E584+1425860]&#10;	GetHandleVerifier [0x00007FF68342E34A+1425290]&#10;	GetHandleVerifier [0x00007FF683446301+1523521]&#10;	GetHandleVerifier [0x00007FF68342EB9B+1427419]&#10;	Ordinal0 [0x00007FF6831987A7+2262951]&#10;	Ordinal0 [0x00007FF6831A3EDA+2309850]&#10;	Ordinal0 [0x00007FF6831C20D8+2433240]&#10;	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]&#10;	RtlUserThreadStart [0x00007FFFA3E8CE51+33]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot find MSEdge binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F3JN55DI', ip: '192.168.1.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6832B1BD2+3414994]
+	Ordinal0 [0x00007FF6831875C2+2192834]
+	Ordinal0 [0x00007FF68302478F+739215]
+	Ordinal0 [0x00007FF682F835A2+79266]
+	Ordinal0 [0x00007FF682F81272+70258]
+	Ordinal0 [0x00007FF682FB07CB+264139]
+	Ordinal0 [0x00007FF682FAD68F+251535]
+	Ordinal0 [0x00007FF682F8A663+108131]
+	Ordinal0 [0x00007FF682F8B9CE+113102]
+	Ordinal0 [0x00007FF6831A2501+2303233]
+	GetHandleVerifier [0x00007FF68342E584+1425860]
+	GetHandleVerifier [0x00007FF68342E34A+1425290]
+	GetHandleVerifier [0x00007FF683446301+1523521]
+	GetHandleVerifier [0x00007FF68342EB9B+1427419]
+	Ordinal0 [0x00007FF6831987A7+2262951]
+	Ordinal0 [0x00007FF6831A3EDA+2309850]
+	Ordinal0 [0x00007FF6831C20D8+2433240]
+	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]
+	RtlUserThreadStart [0x00007FFFA3E8CE51+33]
+
+</error>
+    <system-out><![CDATA[This is done before each scenario
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting MSEdgeDriver 83.0.478.45 (fa71536bbfc4d8c41db9e9b61b8b5f71c6c64f0c) on port 43527
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+Starting MSEdgeDriver 83.0.478.45 (fa71536bbfc4d8c41db9e9b61b8b5f71c6c64f0c) on port 18630
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="Driver user" classname="Account Types" time="0">
+    <error message="unknown error: cannot find MSEdge binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-F3JN55DI&apos;, ip: &apos;192.168.1.216&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: Driver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00007FF6832B1BD2+3414994]&#10;	Ordinal0 [0x00007FF6831875C2+2192834]&#10;	Ordinal0 [0x00007FF68302478F+739215]&#10;	Ordinal0 [0x00007FF682F835A2+79266]&#10;	Ordinal0 [0x00007FF682F81272+70258]&#10;	Ordinal0 [0x00007FF682FB07CB+264139]&#10;	Ordinal0 [0x00007FF682FAD68F+251535]&#10;	Ordinal0 [0x00007FF682F8A663+108131]&#10;	Ordinal0 [0x00007FF682F8B9CE+113102]&#10;	Ordinal0 [0x00007FF6831A2501+2303233]&#10;	GetHandleVerifier [0x00007FF68342E584+1425860]&#10;	GetHandleVerifier [0x00007FF68342E34A+1425290]&#10;	GetHandleVerifier [0x00007FF683446301+1523521]&#10;	GetHandleVerifier [0x00007FF68342EB9B+1427419]&#10;	Ordinal0 [0x00007FF6831987A7+2262951]&#10;	Ordinal0 [0x00007FF6831A3EDA+2309850]&#10;	Ordinal0 [0x00007FF6831C20D8+2433240]&#10;	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]&#10;	RtlUserThreadStart [0x00007FFFA3E8CE51+33]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot find MSEdge binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F3JN55DI', ip: '192.168.1.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6832B1BD2+3414994]
+	Ordinal0 [0x00007FF6831875C2+2192834]
+	Ordinal0 [0x00007FF68302478F+739215]
+	Ordinal0 [0x00007FF682F835A2+79266]
+	Ordinal0 [0x00007FF682F81272+70258]
+	Ordinal0 [0x00007FF682FB07CB+264139]
+	Ordinal0 [0x00007FF682FAD68F+251535]
+	Ordinal0 [0x00007FF682F8A663+108131]
+	Ordinal0 [0x00007FF682F8B9CE+113102]
+	Ordinal0 [0x00007FF6831A2501+2303233]
+	GetHandleVerifier [0x00007FF68342E584+1425860]
+	GetHandleVerifier [0x00007FF68342E34A+1425290]
+	GetHandleVerifier [0x00007FF683446301+1523521]
+	GetHandleVerifier [0x00007FF68342EB9B+1427419]
+	Ordinal0 [0x00007FF6831987A7+2262951]
+	Ordinal0 [0x00007FF6831A3EDA+2309850]
+	Ordinal0 [0x00007FF6831C20D8+2433240]
+	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]
+	RtlUserThreadStart [0x00007FFFA3E8CE51+33]
+
+</error>
+  </testcase>
+  <testcase name="Sales manager user" classname="Account Types" time="1.523">
+    <error message="unknown error: cannot find MSEdge binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-F3JN55DI&apos;, ip: &apos;192.168.1.216&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: Driver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00007FF6832B1BD2+3414994]&#10;	Ordinal0 [0x00007FF6831875C2+2192834]&#10;	Ordinal0 [0x00007FF68302478F+739215]&#10;	Ordinal0 [0x00007FF682F835A2+79266]&#10;	Ordinal0 [0x00007FF682F81272+70258]&#10;	Ordinal0 [0x00007FF682FB07CB+264139]&#10;	Ordinal0 [0x00007FF682FAD68F+251535]&#10;	Ordinal0 [0x00007FF682F8A663+108131]&#10;	Ordinal0 [0x00007FF682F8B9CE+113102]&#10;	Ordinal0 [0x00007FF6831A2501+2303233]&#10;	GetHandleVerifier [0x00007FF68342E584+1425860]&#10;	GetHandleVerifier [0x00007FF68342E34A+1425290]&#10;	GetHandleVerifier [0x00007FF683446301+1523521]&#10;	GetHandleVerifier [0x00007FF68342EB9B+1427419]&#10;	Ordinal0 [0x00007FF6831987A7+2262951]&#10;	Ordinal0 [0x00007FF6831A3EDA+2309850]&#10;	Ordinal0 [0x00007FF6831C20D8+2433240]&#10;	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]&#10;	RtlUserThreadStart [0x00007FFFA3E8CE51+33]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot find MSEdge binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F3JN55DI', ip: '192.168.1.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6832B1BD2+3414994]
+	Ordinal0 [0x00007FF6831875C2+2192834]
+	Ordinal0 [0x00007FF68302478F+739215]
+	Ordinal0 [0x00007FF682F835A2+79266]
+	Ordinal0 [0x00007FF682F81272+70258]
+	Ordinal0 [0x00007FF682FB07CB+264139]
+	Ordinal0 [0x00007FF682FAD68F+251535]
+	Ordinal0 [0x00007FF682F8A663+108131]
+	Ordinal0 [0x00007FF682F8B9CE+113102]
+	Ordinal0 [0x00007FF6831A2501+2303233]
+	GetHandleVerifier [0x00007FF68342E584+1425860]
+	GetHandleVerifier [0x00007FF68342E34A+1425290]
+	GetHandleVerifier [0x00007FF683446301+1523521]
+	GetHandleVerifier [0x00007FF68342EB9B+1427419]
+	Ordinal0 [0x00007FF6831987A7+2262951]
+	Ordinal0 [0x00007FF6831A3EDA+2309850]
+	Ordinal0 [0x00007FF6831C20D8+2433240]
+	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]
+	RtlUserThreadStart [0x00007FFFA3E8CE51+33]
+
+</error>
+    <system-out><![CDATA[This is done before each scenario
+]]></system-out>
+    <system-err><![CDATA[Starting MSEdgeDriver 83.0.478.45 (fa71536bbfc4d8c41db9e9b61b8b5f71c6c64f0c) on port 14570
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+Starting MSEdgeDriver 83.0.478.45 (fa71536bbfc4d8c41db9e9b61b8b5f71c6c64f0c) on port 40055
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="Sales manager user" classname="Account Types" time="0">
+    <error message="unknown error: cannot find MSEdge binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-F3JN55DI&apos;, ip: &apos;192.168.1.216&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: Driver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00007FF6832B1BD2+3414994]&#10;	Ordinal0 [0x00007FF6831875C2+2192834]&#10;	Ordinal0 [0x00007FF68302478F+739215]&#10;	Ordinal0 [0x00007FF682F835A2+79266]&#10;	Ordinal0 [0x00007FF682F81272+70258]&#10;	Ordinal0 [0x00007FF682FB07CB+264139]&#10;	Ordinal0 [0x00007FF682FAD68F+251535]&#10;	Ordinal0 [0x00007FF682F8A663+108131]&#10;	Ordinal0 [0x00007FF682F8B9CE+113102]&#10;	Ordinal0 [0x00007FF6831A2501+2303233]&#10;	GetHandleVerifier [0x00007FF68342E584+1425860]&#10;	GetHandleVerifier [0x00007FF68342E34A+1425290]&#10;	GetHandleVerifier [0x00007FF683446301+1523521]&#10;	GetHandleVerifier [0x00007FF68342EB9B+1427419]&#10;	Ordinal0 [0x00007FF6831987A7+2262951]&#10;	Ordinal0 [0x00007FF6831A3EDA+2309850]&#10;	Ordinal0 [0x00007FF6831C20D8+2433240]&#10;	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]&#10;	RtlUserThreadStart [0x00007FFFA3E8CE51+33]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot find MSEdge binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F3JN55DI', ip: '192.168.1.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6832B1BD2+3414994]
+	Ordinal0 [0x00007FF6831875C2+2192834]
+	Ordinal0 [0x00007FF68302478F+739215]
+	Ordinal0 [0x00007FF682F835A2+79266]
+	Ordinal0 [0x00007FF682F81272+70258]
+	Ordinal0 [0x00007FF682FB07CB+264139]
+	Ordinal0 [0x00007FF682FAD68F+251535]
+	Ordinal0 [0x00007FF682F8A663+108131]
+	Ordinal0 [0x00007FF682F8B9CE+113102]
+	Ordinal0 [0x00007FF6831A2501+2303233]
+	GetHandleVerifier [0x00007FF68342E584+1425860]
+	GetHandleVerifier [0x00007FF68342E34A+1425290]
+	GetHandleVerifier [0x00007FF683446301+1523521]
+	GetHandleVerifier [0x00007FF68342EB9B+1427419]
+	Ordinal0 [0x00007FF6831987A7+2262951]
+	Ordinal0 [0x00007FF6831A3EDA+2309850]
+	Ordinal0 [0x00007FF6831C20D8+2433240]
+	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]
+	RtlUserThreadStart [0x00007FFFA3E8CE51+33]
+
+</error>
+  </testcase>
+</testsuite>

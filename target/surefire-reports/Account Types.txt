@@ -1,0 +1,116 @@
+-------------------------------------------------------------------------------
+Test set: Account Types
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 11.211 s <<< FAILURE! - in Account Types
+Driver user(Account Types)  Time elapsed: 9.688 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find MSEdge binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F3JN55DI', ip: '192.168.1.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6832B1BD2+3414994]
+	Ordinal0 [0x00007FF6831875C2+2192834]
+	Ordinal0 [0x00007FF68302478F+739215]
+	Ordinal0 [0x00007FF682F835A2+79266]
+	Ordinal0 [0x00007FF682F81272+70258]
+	Ordinal0 [0x00007FF682FB07CB+264139]
+	Ordinal0 [0x00007FF682FAD68F+251535]
+	Ordinal0 [0x00007FF682F8A663+108131]
+	Ordinal0 [0x00007FF682F8B9CE+113102]
+	Ordinal0 [0x00007FF6831A2501+2303233]
+	GetHandleVerifier [0x00007FF68342E584+1425860]
+	GetHandleVerifier [0x00007FF68342E34A+1425290]
+	GetHandleVerifier [0x00007FF683446301+1523521]
+	GetHandleVerifier [0x00007FF68342EB9B+1427419]
+	Ordinal0 [0x00007FF6831987A7+2262951]
+	Ordinal0 [0x00007FF6831A3EDA+2309850]
+	Ordinal0 [0x00007FF6831C20D8+2433240]
+	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]
+	RtlUserThreadStart [0x00007FFFA3E8CE51+33]
+
+
+Driver user(Account Types)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find MSEdge binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F3JN55DI', ip: '192.168.1.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6832B1BD2+3414994]
+	Ordinal0 [0x00007FF6831875C2+2192834]
+	Ordinal0 [0x00007FF68302478F+739215]
+	Ordinal0 [0x00007FF682F835A2+79266]
+	Ordinal0 [0x00007FF682F81272+70258]
+	Ordinal0 [0x00007FF682FB07CB+264139]
+	Ordinal0 [0x00007FF682FAD68F+251535]
+	Ordinal0 [0x00007FF682F8A663+108131]
+	Ordinal0 [0x00007FF682F8B9CE+113102]
+	Ordinal0 [0x00007FF6831A2501+2303233]
+	GetHandleVerifier [0x00007FF68342E584+1425860]
+	GetHandleVerifier [0x00007FF68342E34A+1425290]
+	GetHandleVerifier [0x00007FF683446301+1523521]
+	GetHandleVerifier [0x00007FF68342EB9B+1427419]
+	Ordinal0 [0x00007FF6831987A7+2262951]
+	Ordinal0 [0x00007FF6831A3EDA+2309850]
+	Ordinal0 [0x00007FF6831C20D8+2433240]
+	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]
+	RtlUserThreadStart [0x00007FFFA3E8CE51+33]
+
+
+Sales manager user(Account Types)  Time elapsed: 1.523 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find MSEdge binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F3JN55DI', ip: '192.168.1.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6832B1BD2+3414994]
+	Ordinal0 [0x00007FF6831875C2+2192834]
+	Ordinal0 [0x00007FF68302478F+739215]
+	Ordinal0 [0x00007FF682F835A2+79266]
+	Ordinal0 [0x00007FF682F81272+70258]
+	Ordinal0 [0x00007FF682FB07CB+264139]
+	Ordinal0 [0x00007FF682FAD68F+251535]
+	Ordinal0 [0x00007FF682F8A663+108131]
+	Ordinal0 [0x00007FF682F8B9CE+113102]
+	Ordinal0 [0x00007FF6831A2501+2303233]
+	GetHandleVerifier [0x00007FF68342E584+1425860]
+	GetHandleVerifier [0x00007FF68342E34A+1425290]
+	GetHandleVerifier [0x00007FF683446301+1523521]
+	GetHandleVerifier [0x00007FF68342EB9B+1427419]
+	Ordinal0 [0x00007FF6831987A7+2262951]
+	Ordinal0 [0x00007FF6831A3EDA+2309850]
+	Ordinal0 [0x00007FF6831C20D8+2433240]
+	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]
+	RtlUserThreadStart [0x00007FFFA3E8CE51+33]
+
+
+Sales manager user(Account Types)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find MSEdge binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F3JN55DI', ip: '192.168.1.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6832B1BD2+3414994]
+	Ordinal0 [0x00007FF6831875C2+2192834]
+	Ordinal0 [0x00007FF68302478F+739215]
+	Ordinal0 [0x00007FF682F835A2+79266]
+	Ordinal0 [0x00007FF682F81272+70258]
+	Ordinal0 [0x00007FF682FB07CB+264139]
+	Ordinal0 [0x00007FF682FAD68F+251535]
+	Ordinal0 [0x00007FF682F8A663+108131]
+	Ordinal0 [0x00007FF682F8B9CE+113102]
+	Ordinal0 [0x00007FF6831A2501+2303233]
+	GetHandleVerifier [0x00007FF68342E584+1425860]
+	GetHandleVerifier [0x00007FF68342E34A+1425290]
+	GetHandleVerifier [0x00007FF683446301+1523521]
+	GetHandleVerifier [0x00007FF68342EB9B+1427419]
+	Ordinal0 [0x00007FF6831987A7+2262951]
+	Ordinal0 [0x00007FF6831A3EDA+2309850]
+	Ordinal0 [0x00007FF6831C20D8+2433240]
+	BaseThreadInitThunk [0x00007FFFA35D7BD4+20]
+	RtlUserThreadStart [0x00007FFFA3E8CE51+33]
+
+

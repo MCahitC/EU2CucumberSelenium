@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.vytrack.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.28 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
-Menu Options(Contacts page)  Time elapsed: 11.934 s  <<< FAILURE!
-java.lang.AssertionError: verifying the menu options expected:<[Flee, Customers, Activities, System]> but was:<[Fleet, Customers, Activities, System]>
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
+initializationError(com.vytrack.runners.CukesRunner)  Time elapsed: 0.002 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Unknown option: --tags@login
 
